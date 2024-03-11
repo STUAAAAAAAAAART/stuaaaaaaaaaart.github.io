@@ -30,7 +30,7 @@ url: "stuaaaaaaaaaart.github.io" # the base hostname & protocol for your site, e
 github_username:  STUAAAAAAAAAART
 
 # Build settings
-remote_theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs-template
 plugins:
   - jekyll-feed
   - jekyll-default-layout
