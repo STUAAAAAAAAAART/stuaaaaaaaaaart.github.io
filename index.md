@@ -8,3 +8,7 @@ permalink: /
 ---
 
 Testing
+
+emoji render test
+
+👋
