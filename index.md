@@ -5,10 +5,9 @@
 layout: page
 title: Home
 permalink: /
+nav_exclude: true
 ---
 
-Testing
+# 👋 hello!
 
-emoji render test
-
-👋
+Main Page Testing

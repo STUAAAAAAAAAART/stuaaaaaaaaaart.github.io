@@ -31,12 +31,15 @@ github_username:  STUAAAAAAAAAART
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs@v0.7.0
+
 plugins:
   - jekyll-feed
   - jekyll-default-layout
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+color_scheme: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
