@@ -36,4 +36,4 @@ Bournemouth University<br/>
 > 
 > **stuart learns to rig via python openMaya 2.0**<br/>
 > Autodesk Maya, Python <br/>
-> [⬅ video and writeup](<posts/2024/FK Controller (YT)>)<br/>
+> [⬅ video and writeup](posts/2024/Overthinking%20FK%20Controllers/)<br/>
