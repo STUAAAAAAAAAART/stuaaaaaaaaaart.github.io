@@ -8,11 +8,12 @@ has_children: true
 # explainer the video.md
 ### Youtube: Overthinking FK Controllers
 
-[youtube iframe embed]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xIViqV4CP9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## [⬅ see also: rigStu repo](https://github.com/STUAAAAAAAAAART/rigStu)
 
-full explainer [below](#the-rig), but first::
+# full explainer [below](#the-rig), but first::
 
 > ## postscript 1: the outliner deal
 > the outliner in the video looked something like this:

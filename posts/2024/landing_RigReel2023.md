@@ -7,7 +7,7 @@ layout: page
 **explainer the video.md**<br/>
 # Youtube: Stuart's uni rigging demoreel 2023
 
-[youtube iframe embed]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1oNCjAQye0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## part 1: project spino
 

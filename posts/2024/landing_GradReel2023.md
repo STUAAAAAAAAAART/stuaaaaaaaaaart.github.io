@@ -11,7 +11,7 @@ Bournemouth University 2020-23
 
 ======
 
-[youtube paste embed iframe here]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/76b4ee8_C9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ======
 
@@ -26,14 +26,3 @@ environment models; player character robot model<br/>
 - 3D printing project<br/>
 cat bust with articulated ear<br/>
 Ultimaker 2/2+
-
-======
-### Project OVERGROWN
-
-
-======
-### misc images
-
-[]image: cathead (base for 3D print)
-
-[]gif: castle-whack-a-mole c++ project
