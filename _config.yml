@@ -30,7 +30,7 @@ url: "stuaaaaaaaaaart.github.io" # the base hostname & protocol for your site, e
 github_username:  STUAAAAAAAAAART
 
 # Build settings
-remote_theme: just-the-docs/just-the-docs@v0.7.0
+theme: just-the-docs
 
 plugins:
   - jekyll-feed
@@ -38,6 +38,21 @@ plugins:
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# External navigation links
+nav_external_links:
+  - title: Github
+    url: https://github.com/STUAAAAAAAAAART
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
+  - title: github/rigStu
+    url: https://github.com/STUAAAAAAAAAART/rigStu
+    hide_icon: false
+    opens_in_new_tab: false
+  - title: LinkedIn
+    url: about:blank
+    hide_icon: false
+    opens_in_new_tab: false
 
 color_scheme: dark
 
