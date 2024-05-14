@@ -9,11 +9,7 @@ layout: page
 BA Computer Animation Technical Arts<br/>
 Bournemouth University 2020-23
 
-======
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/76b4ee8_C9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-======
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/76b4ee8_C9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - spinosaurus rig and phoneme-based mouth rig<br/>
 ⬅ [writeup and video (rig reel)](landing_GradReel2023.md)
