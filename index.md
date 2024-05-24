@@ -24,7 +24,7 @@ Bournemouth University<br/>
 > Autodesk Maya, Python<br/>
 > [⬅ rig reel](posts/2024/landing_RigReel2023.md)<br/>
 
-> 
+> ![pig bakery](posts/2024/img/2023/pb001_titlebar.png)
 > **Major Project: "Croissoink"**<br/>
 > Short Film by Emma Moisuc, Lucia Cisneros, Stuart Lim<br/>
 > <br/>
