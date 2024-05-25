@@ -3,6 +3,7 @@ parent: 2024
 title: Stuff - Overthinking FK Controllers
 layout: page
 has_children: true
+date: 2024-01-01 00:00:00 +0800
 ---
 
 # explainer the video.md

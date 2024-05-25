@@ -2,6 +2,7 @@
 parent: 2024
 title: Graduation Reel '23
 layout: page
+date: 2023-08-01 00:00:00 +0000
 ---
 
 ### Youtube: Stuart's Graduation Reel 2023

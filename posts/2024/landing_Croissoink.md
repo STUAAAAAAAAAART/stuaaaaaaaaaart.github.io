@@ -2,6 +2,7 @@
 parent: 2024
 title: Major Project - Croissoink
 layout: page
+date: 2023-08-01 00:00:00 +0000
 ---
 
 <iframe src="https://player.vimeo.com/video/832082284?h=c42fa497f5" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

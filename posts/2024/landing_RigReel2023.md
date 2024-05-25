@@ -2,6 +2,7 @@
 parent: 2024
 title: Rigging Demoreel '23
 layout: page
+date: 2023-08-01 00:00:00 +0000
 ---
 
 **explainer the video.md**<br/>
