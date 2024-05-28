@@ -12,6 +12,8 @@ date: 2023-08-01 00:00:00 +0000
 
 ## part 1: project spino
 
+complex rig solving
+
 Part of Rigging Masterclass 2022/23, Bournemouth University <br/>
 Spinosaurus Model provided by Frontier Studios via Bounremouth University
 
@@ -83,6 +85,8 @@ other improvements that are either needed, or to expand functionality:
 
 
 ## part 2: untitled project to generate keyframes for speech animation
+
+scripted animation keyframing, and rig design specialization
 
 ⬅ script repository: [github/Uni_IPAkeyframeProject](https://github.com/STUAAAAAAAAAART/Uni_IPAkeyframeProject)<br/>
 attributions in github repository
@@ -172,6 +176,9 @@ this project is not unique in any way: existing speech animation tools exist, in
 > <sup>c1</sup> LipSync example voice & Unreal export - Advanced Skeleton https://www.youtube.com/watch?v=73y3aJuScaY <br/>
 
 ## part 3: "Rigging Script Test"
+
+abstracting and scripting the rigging process
+
 ### [⬅ see explainer in Overthinking FK Controllers](<./Overthinking FK Controllers>)
 
 github: [rigStu](https://github.com/STUAAAAAAAAAART/rigStu)
