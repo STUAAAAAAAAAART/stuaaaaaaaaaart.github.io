@@ -31,8 +31,9 @@ note: "**forward rotations**" refer to the `joint.rotate` attribute (the animati
 
 # rig demo
 
-(GIFs TBA, recording)
+(TBA, recording)
 
+![outliner](img/2024/Note/002/ikBlend_Outliner.png)
 
 # node diagrams
 
@@ -51,13 +52,34 @@ on the use of "matrix caching" `holdMatrix` node here:
 
 the aim of the result of this matrix value is to get the position of the wrist relative to the root of the joint chain, unmoved.
 
-the regular way would to climb the entire chain from the root to the wrist (+1 connection per joint to the `multMatrix`), and remove all the forward rotations along the way (+1 `composeMatrix` per joint).
+the regular way would to climb the entire chain from the root to the wrist (+1 connection per joint to the `multMatrix`), and remove all the forward rotations along the way (+1 `composeMatrix` and +1 connection per joint to the `multMatrix`).
 
-the shortcut, is to touch `wrist.worldMatrix` to a holdMatrix, with no forward rotations, and use that for the `ikTargetController.offsetParentMatrix` connection. 
+(the `multMatrix` ladder would be `2n-1` long and contain `n+1` nodes, so imagine going from root to hip to spin chain to arm chain ending at wrist.)
 
-> the only downside is this easy solution is not dynamic, and requires a manual update if that part of the rig is to be edited after creation
+the shortcut, is to touch `wrist.worldMatrix` to a `holdMatrix`, with no forward rotations, and use that for the `ikTargetController.offsetParentMatrix` connection. this can be done either through porting over attribute values (`getAttr` and `setAttr`), or calculating the matrix cache directly in python and setting the matrix attribute (especially for caching a matrix multiply result)
+
+> the only downside is this easy solution is not dynamic, and requires a manual update if that part of the rig is to be edited after creation. a script (either a script job or a python function for the rig) could be used for this
 
 doing the regular way may make more sense when created through the script, in a run-and-forget manner. might be post-creation-editing unfriendly though from the hairy ladder standpoint
 
+**will do a note on matrix caching in [the maya node notes folder](../mayaNodeStuff)**
+
 ### Pole Vector root adjustments
 ![alt text](img/2024/Note/002/ikBlend_PoleVector.png)
+
+### Wrist Rotation basis switch
+![alt text](img/2024/Note/002/ikBlend_logicWrist.png)
+
+
+# other adjustments to add
+- noflip pole vector IK
+	- requires `aimMatrix` and a center-facing object vector
+	- for the script: consider option for regular PV and noflip PV, in case there is a use for regular semi-absolute positioning
+- tool-helper IK intermediary targets (works like the both-eyes aim target controller, where the two eye target controllers are under a parent controller)
+	- tool targets (like that in unreal engine's additional hand IK target joints)
+	- "table" targets (like the eye control described above)
+- study use case of two single-chain IKs for arm?
+	- for things like leaning elbows on stuff (e.g. table, side of hip) and having the forearm articulate from there?
+- curve shape switching on creation time
+	- changing values to the `curveShape.create` attribute
+- flip some IK setting blend attributes to make intuitive sense
