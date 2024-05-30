@@ -8,6 +8,8 @@ date: 2024-05-28 00:00:00 +0800
 # Journal: FK-IK Blending Revision...
 ... and preparation for autoIK.py
 
+(part 1 of n)
+
 `TODO` for scripting towards autoIK.py:
 - `multMatrix` variant function for quickly removing forward-rotations from a section of a joint chain
 	- notes on multMatrix: [here](../mayaNodeStuff/mNode_multMatrix.md)
@@ -30,8 +32,10 @@ date: 2024-05-28 00:00:00 +0800
 note: "**forward rotations**" refer to the `joint.rotate` attribute (the animation-facing attribute), rather than the `joint.jointOrient` rotation or the combined transform in the `joint.matrix` result
 
 # rig demo
-
-(TBA, recording)
+![IK FK switching](img/2024/Note/002/ikBlend_ikSwitch.gif)<br/>
+![absolute and relative wrist rotation](img/2024/Note/002/ikBlend_wristDemo0.gif)<br/>
+![dusting the table](img/2024/Note/002/ikBlend_wristDemo1.gif)<br/>
+![alt text](img/2024/Note/002/ikBlend_targetAndPV.gif)
 
 ![outliner](img/2024/Note/002/ikBlend_Outliner.png)
 
@@ -58,11 +62,13 @@ the regular way would to climb the entire chain from the root to the wrist (+1 c
 
 the shortcut, is to touch `wrist.worldMatrix` to a `holdMatrix`, with no forward rotations, and use that for the `ikTargetController.offsetParentMatrix` connection. this can be done either through porting over attribute values (`getAttr` and `setAttr`), or calculating the matrix cache directly in python and setting the matrix attribute (especially for caching a matrix multiply result)
 
-> the only downside is this easy solution is not dynamic, and requires a manual update if that part of the rig is to be edited after creation. a script (either a script job or a python function for the rig) could be used for this
+this way, the initial state (zero rotations) is only calculated once, and simplifies a lot of the node network connections
+
+> the only downside is this easy solution is not dynamic, and requires a manual update if that part of the rig is to be edited after creation. a script could be used for this, and could be excuted before saving (possibly in a "bake and save" manner)
 
 doing the regular way may make more sense when created through the script, in a run-and-forget manner. might be post-creation-editing unfriendly though from the hairy ladder standpoint
 
-**will do a note on matrix caching in [the maya node notes folder](../mayaNodeStuff)**
+**will do a note on matrix caching in [the maya node notes folder](../mayaNodeStuff) at some point in the future**
 
 ### Pole Vector root adjustments
 ![alt text](img/2024/Note/002/ikBlend_PoleVector.png)
