@@ -35,7 +35,8 @@ note: "**forward rotations**" refer to the `joint.rotate` attribute (the animati
 ![IK FK switching](img/2024/Note/002/ikBlend_ikSwitch.gif)<br/>
 ![absolute and relative wrist rotation](img/2024/Note/002/ikBlend_wristDemo0.gif)<br/>
 ![dusting the table](img/2024/Note/002/ikBlend_wristDemo1.gif)<br/>
-![alt text](img/2024/Note/002/ikBlend_targetAndPV.gif)
+![clavicle and skeletal root basis switch](img/2024/Note/002/ikBlend_targetAndPV.gif)<br/>
+note: second slider controls root of pole vector controller
 
 ![outliner](img/2024/Note/002/ikBlend_Outliner.png)
 
