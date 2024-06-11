@@ -53,6 +53,8 @@ note: second slider controls root of pole vector controller
 ### IK Target root adjustments
 ![alt text](img/2024/Note/002/ikBlend_ikTarget.png)
 
+> **UPDATE: the `joint.bindPose` attribute already caches the initial world-forward transform of the joint relative to world zero! the attribute is updated every time a bind skin command is done with the joint, so that could be used alternatively to poll the initial zero-animation transform of the joint**
+
 on the use of "matrix caching" `holdMatrix` node here:
 
 the aim of the result of this matrix value is to get the position of the wrist relative to the root of the joint chain, unmoved.
