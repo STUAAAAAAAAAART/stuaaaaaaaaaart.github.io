@@ -31,7 +31,7 @@ solution 2:
 > rotation ➡ `animBlendNodeAdditiveRotation` ➡ rotation
 - prevents unitConverson
 - subtraction and multiplication handled by weight attributes within
-- single-operation behaviour unfortunately means one node is required between two rotations (i.e. for summing `n` number of rotations, a `fibonacci(n)` of addRotate nodes is needed)
+- single-operation behaviour unfortunately means one node is required between two rotations (i.e. for summing `n` number of rotations, a `triangle(n)` of addRotate nodes is needed)
 - allows for component-wise or quaternion-based operation, depending on use case
 
 ## a use of this node
