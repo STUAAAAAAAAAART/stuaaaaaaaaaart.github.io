@@ -5,7 +5,7 @@ title: ZZ-Journal24-004-splineIK
 date: 2024-07-13 00:00:00 +0800
 ---
 
-# Spline IK and the Online Resources
+# Spline IK thoughts
 
 ⚠ this isn't done yet, just had a thought that challenged how i saw the splineIK solver and how i used it in the past, and am in the middle of testing something
 
@@ -41,3 +41,4 @@ it'd involve treating the driver curve like the skinned mesh and not moving it a
 
 a preview curve could be duplicated for visual feedback, but the source curve would be hidden along with the rig logic group
 
+EDIT: the title used to be called "Spline IK and the Online Resources": i'm still working on the note that tracks all the methods being posted online out of curiosity, as this solver still feels like a dark art of sorts to me even today
