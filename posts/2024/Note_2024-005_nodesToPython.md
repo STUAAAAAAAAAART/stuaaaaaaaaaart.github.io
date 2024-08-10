@@ -26,7 +26,7 @@ date: 2024-08-11 00:00:00 +0800
   - currently copying off the script editor, but large networks could easily flood the console with lots of text
 
 
-## ⬅🔗 [script in separate file due to site parser edge case](https://stuaaaaaaaaaart.github.io/posts/2024/img/2024/Note/005/scriptScript.py)
+## ⬅🔗 [script in separate file due to site parser edge case](https://github.com/STUAAAAAAAAAART/stuaaaaaaaaaart.github.io/tree/main/posts/2024/img/2024/Note/005/scriptScript.py)
 
 
 
@@ -38,4 +38,4 @@ so selecting these and running the script:
 
 will result in the following output, which is most of the legwork done (looks really daunting to type out by hand in hindsight...)
 
-## ⬅🔗 [example output in separate file due to site parser edge case](https://stuaaaaaaaaaart.github.io/posts/2024/img/2024/Note/005/scriptScript_output.py)
+## ⬅🔗 [example output in separate file due to site parser edge case](https://github.com/STUAAAAAAAAAART/stuaaaaaaaaaart.github.io/tree/main/posts/2024/img/2024/Note/005/scriptScript_output.py)
