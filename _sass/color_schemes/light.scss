@@ -14,3 +14,5 @@ $search-background-color: $white !default;
 $search-result-preview-color: $grey-dk-000 !default;
 
 @import "./vendor/OneLightJekyll/syntax";
+
+code { tab-size: 4; };
