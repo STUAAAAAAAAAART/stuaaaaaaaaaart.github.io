@@ -151,7 +151,7 @@ h1 { font-size: 2em; margin: 0.67em 0; }
 hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
 
 /** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
-pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ tab-size: 2; }
+pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 
 /* Text-level semantics ========================================================================== */
 /** Remove the gray background on active links in IE 10. */
