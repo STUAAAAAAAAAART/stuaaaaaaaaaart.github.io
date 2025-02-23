@@ -10,7 +10,7 @@ date: 2025-02-23 00:00:00 +0800
 ![BAD APPLE!!](img/toy_badApple/badApple.gif)
 
 file updates on the github repo: <br/>
-🔗 https://github.com/STUAAAAAAAAAART/badappleDiscordEmote/
+🔗 [https://github.com/STUAAAAAAAAAART/badappleDiscordEmote/](https://github.com/STUAAAAAAAAAART/badappleDiscordEmote/)
 
 ## preamble
 
