@@ -45,8 +45,10 @@ how about figuring out a way for animated motion smears for low framerate sectio
 
 so, python.
 
-### the working numbers
 ----
+
+### the working numbers
+
 the known restrictions so far:
 - max 128px square (i'm just going under this)
 - under 256kb
@@ -75,9 +77,9 @@ the previous naiive attempt, as a reminder:
 		- limit does not apply to opening animated GIFs
 	- discord drops frames past frame #2000 
 
+----
 
 ## figuring out the work
-----
 
 premiere pro:
 - limited framerate options for sequences
@@ -118,8 +120,9 @@ other notes:
 
 - the first release played faster than the original video, due to rounding off frametime values per partial frame. this is fixed by getting a running sum of frametime lost to rounding, and adding 0.01s back to the actively processed frame whenever there's enough rounded time accumulated
 
-## WIPs
 ----
+
+## WIPs
 
 [GITHUB: imgPreviewer.py](https://github.com/STUAAAAAAAAAART/badappleDiscordEmote/blob/main/source/imgPreviewer.py) <br/>
 [GITHUB: imgProcessor.py](https://github.com/STUAAAAAAAAAART/badappleDiscordEmote/blob/main/source/imgProcessor.py)
@@ -132,8 +135,10 @@ cuts in premiere and arrangement according to target frametime<br/>
 ![Alt text](img/toy_badApple/photoshopFinalSetting.png)<br/>
 final compression in photoshop, aiming to keep under 256KB
 
-# Result
 ----
+
+# Result
+
 ![BAD APPLE!!](img/toy_badApple/badApple.gif)
 
 - 248KB
@@ -149,8 +154,10 @@ so a couple observations:
 - high motion bits are a lot better than the previous attempt
 - the bake from the python processor turned out kinda visually artifacty (add-sections have stray pixel outlines because of adding up h.264 compression artifacts in the intermediary frames), but those are mostly hidden away from the output file being so small
 
-# what's next
 ----
+
+# what's next
+
 while this was an exercise in making a GIF that better conforms to discord's limits, the use of abstracted image handling libraries give me a better sense on how to tackle large image management in a studio setting, for example if there is a need to optimise a set of images before passing on to the next workflow in the pipeline
 
 so things like making a PNG to hold 6 channels' worth of data at half the bit depth is something i may have a better view on addressing (the logic in the function to average multiple frames together used numpy instead of a function in PIL, which opens up the possibility to directly write whatever i want per-pixel without having to wrestle too much with PIL image data formats)
