@@ -5,6 +5,8 @@ title: ZZ-Journal24-005-nodesToPython
 date: 2024-08-11 00:00:00 +0800
 ---
 
+**UPDATE 2025: code has since been edited, a follow-up to this page will be written at a later date, to address `ikHandle`s and the proper invocations to create them, instead of lazy node spawning**
+
 # Converting a selection of nodes in the maya node editor to python commands
 
 **Problem**: writing python code to codify a node network takes a long time due to:
