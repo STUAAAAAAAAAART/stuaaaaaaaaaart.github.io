@@ -9,6 +9,9 @@ date: 2024-08-11 00:00:00 +0800
 
 [https://github.com/STUAAAAAAAAAART/mayaNodeToPython](https://github.com/STUAAAAAAAAAART/mayaNodeToPython)
 
+see also applied uses in my other repo about rigging modules/sections:<br/>
+[https://github.com/STUAAAAAAAAAART/StuMayaRigToys](https://github.com/STUAAAAAAAAAART/StuMayaRigToys)
+
 # Converting a selection of nodes in the maya node editor to python commands
 
 **Problem**: writing python code to codify a node network takes a long time due to:
